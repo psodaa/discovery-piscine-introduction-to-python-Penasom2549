@@ -1,7 +1,7 @@
-arr = [2, 8, 9, 48, 8, 22, -12, 2]
+import sys
 
-print(arr)
 
-result = [x + 2 for x in arr if x > 5]
+parameters = sys.argv[1:]
 
-print(result)
+
+print(f"Number of parameters: {len(parameters)}.")
